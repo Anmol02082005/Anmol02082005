@@ -1,0 +1,19 @@
+<svg width="480" height="260" viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Anmol's GitHub stats">
+<defs>
+    <linearGradient id="sBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c0d33"/>
+      <stop offset="100%" stop-color="#22103d"/>
+    </linearGradient>
+    <linearGradient id="sRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6ec7"/>
+      <stop offset="100%" stop-color="#b026ff"/>
+    </linearGradient>
+    </defs>
+    <style>
+    .row{opacity:0;transform-box:fill-box;}
+    .rowin{animation:rowIn .6s cubic-bezier(.2,.8,.2,1) forwards;}
+    @keyframes rowIn{0%{opacity:0;transform:translateX(-24px);}100%{opacity:1;transform:translateX(0);}}
+    .ringwrap{opacity:0;animation:ringIn .7s ease-out .15s forwards;}
+    @keyframes ringIn{0%{opacity:0;transform:scale(.7);transform-box:fill-box;}100%{opacity:1;transform:scale(1);}}
+    </style>
+    <rect width="480" height="260" rx="18" fill="url(#sBg)" stroke="rgba(255,255,255,0.12)" stroke-width="1.3"/><text x="24" y="34" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="800" fill="#f3e8ff" letter-spacing="1">Anmol’s GitHub Stats</text><g class="row rowin" style="animation-delay:0.15s"><text x="26" y="62" font-size="13" fill="#ff8fd6">◆</text><text x="44" y="62" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9a9e0">Public Repos:</text><text x="230" y="62" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" fill="#f3e8ff">6</text></g><g class="row rowin" style="animation-delay:0.27s"><text x="26" y="94" font-size="13" fill="#ff8fd6">✦</text><text x="44" y="94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9a9e0">Followers:</text><text x="230" y="94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" fill="#f3e8ff">0</text></g><g class="row rowin" style="animation-delay:0.39s"><text x="26" y="126" font-size="13" fill="#ff8fd6">●</text><text x="44" y="126" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9a9e0">Following:</text><text x="230" y="126" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" fill="#f3e8ff">0</text></g><g class="row rowin" style="animation-delay:0.51s"><text x="26" y="158" font-size="13" fill="#ff8fd6">★</text><text x="44" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9a9e0">Public Gists:</text><text x="230" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" fill="#f3e8ff">0</text></g><g class="row rowin" style="animation-delay:0.63s"><text x="26" y="190" font-size="13" fill="#ff8fd6">⧉</text><text x="44" y="190" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9a9e0">Joined GitHub:</text><text x="230" y="190" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" fill="#f3e8ff">2025</text></g><g transform="translate(396,140)"><g class="ringwrap"><circle r="62" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="12"/><circle r="62" fill="none" stroke="url(#sRing)" stroke-width="12" stroke-linecap="round" stroke-dasharray="163.6 389.6" transform="rotate(-90)"><animate attributeName="stroke-dasharray" from="0 389.6" to="163.6 389.6" dur="1.4s" begin="0.3s" fill="freeze" calcMode="spline" keySplines=".2 .7 .3 1"/></circle><text x="0" y="-4" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="#f3e8ff">6</text><text x="0" y="18" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" fill="#c9a9e0" letter-spacing="1.5">REPOS</text></g></g></svg>
